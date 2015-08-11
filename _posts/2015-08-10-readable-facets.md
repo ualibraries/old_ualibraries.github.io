@@ -1,6 +1,6 @@
 ---
 title: Readable facet labels in Summon
-published: false
+published: true
 layout: post
 permalink: "summon-facet-labels"
 ---
