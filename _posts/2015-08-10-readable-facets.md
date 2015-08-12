@@ -13,7 +13,7 @@ At the UA Libraries, we use Summon as our discovery tool. As many libraries noti
 
 ![]({{ site.url }}/downloads/summon-discipline-facet.png)
 
-Some solutions proposed on the Summon listserv included increasing the width of the facet field to a wider number of pixels and changing the text-overflow property. These solutions could help to save some horizontal real estate and to display more of the label, but there wasn't a guarantee that the entire facet label would display.
+Solutions proposed on the Summon listserv included increasing the `width` of the facet field to a wider number of pixels and changing the `text-overflow` property. These solutions could help to save some horizontal real estate and to display more of the label, but there wasn't a guarantee that the entire facet label would display.
 
 We decided to take up more vertical real estate in order to show the entire facet label no matter what, and to adjust the vertical spacing between the labels and also the result counts so they stayed next to each other.
 
@@ -31,7 +31,7 @@ We had added a custom javascript file and a custom CSS file when we first launch
 	 */	
 	$('<link rel="stylesheet" href="//www.library.arizona.edu/vendor-support/summon/ualibraries-custom.css?ver=062414-1">').appendTo( $('head') );
 
-We (usually) manually update the ?ver=062414 part so the browser cache gets a fresh copy of the CSS each time we release a new set of changes.
+We (usually) manually update the `?ver=062414` part so the browser cache gets a fresh copy of the CSS each time we release a new set of changes.
 
 This part of our CSS file relates to the facets
 
